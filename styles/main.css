@@ -71,6 +71,9 @@ footer {
     font-size:  smaller ;
 }
 
+main > div:last-child{
+    padding-top: 25px;
+}
 
 /* slides */
 
@@ -89,7 +92,7 @@ body { margin:0}
 
 .slide_img{
     margin: auto;
-    max-width: 100%;
+    width: 85px;
 }
 
 /* Slides */
