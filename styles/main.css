@@ -1,40 +1,104 @@
 
-/* * is a wildcard referring to all elements. */
+/* header */
+header {
+    color: #fff;
+    background-color: #193f71;
+}
+
+.heady{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    gap:10px;
+}
+
+.circle{
+    border: 2px solid #fff;
+    background-color: #d5e2f3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 60px;
+    height: auto;
+    padding: 2px;
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ini{
+    padding: 0;
+    margin: 0;
+}
+
+.ini > h1{
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.ini > p{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* body */
+
+.motto{
+    background-color: #193f71;
+    font-size: 0.6rem;
+    color: #fff;
+    line-height: normal;
+    padding: 5px;
+    text-align: center;
+}
+/* ---- social - icons ---- */
+.social-container{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #d5e2f3;
+    
+    
+}
+.icon{
+    width: auto;
+    height: 15px;
+}
+.link > a{
+    text-decoration: none;
+    color:#717171;
+    margin-right: 5px;
+}
+
+/* ---- social - icons ---- */
 
 
 body { 
     width: 100%;
-    font-size: 16px; 
+    font-size: 1rem; 
     line-height: 32px;
+    font-weight: lighter;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    color: #717171;
-}
-
-.profile{
-    border-radius: 50%;
-    width: 60px;
-}
-
-.icon{
-    width: 15px;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.link > a{
-    text-decoration: none;
-    color:#004080;
-}
-h1 {
-    font-size: 1.5rem;
+    color: #193f71;
 }
 
 h2 {
-    font-size:  1.2rem;
+    font-size:  1.1rem;
     text-align: center;
     color: #004080;
 }
@@ -46,26 +110,50 @@ header, footer {
 }
 
 main{
-    margin: 0;
-    padding: 1rem;
     max-width: 100% ;
 }
 
-header, footer, footer a {
+main > div{
+    padding: 0 1rem;
+}
+
+
+/* tech skills & education */
+
+
+table, td, th{
+    border: 1px solid #d5e2f3;
+    padding: 5px;
+    color: #717171;
+}
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #d5e2f3;
+    color: #193f71;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active{
+    color: #d5e2f3;
+}
+.education-table, .tech-skills {
+    text-align: center;
+}
+/* tech skills end */
+
+
+ footer, footer a {
     text-align: center;
     background-color: #193f71;
     color: whitesmoke;
 }
 
-header img {
-    width: 20%;
-    height: auto;
-    float: right;
-}
-
-.education-table {
-    text-align: center;
-}
 
 footer {
     font-size:  smaller ;
@@ -84,79 +172,3 @@ body { margin:0}
     max-width: 90%;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  background: #f1f1f1f1;
-}
-
-.slide_img{
-    margin: auto;
-    width: 85px;
-}
-
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 40px 45px;
-  text-align: center;
-}
-
-.mySlides > p{
-    margin: 0;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
-
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
