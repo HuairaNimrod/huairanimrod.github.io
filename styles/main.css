@@ -1,8 +1,8 @@
 
 /* header */
 header {
-    color: #fff;
-    background-color: #193f71;
+    color: #193f71;
+    /* background-color: #193f71; */
 }
 
 .heady{
@@ -14,8 +14,8 @@ header {
 }
 
 .circle{
-    border: 2px solid #fff;
-    background-color: #d5e2f3;
+    border: 2px solid #193f71;
+    background-color: #fff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-color: #d5e2f3;
+    background-color: #193f71;
     
     
 }
@@ -81,7 +81,7 @@ header {
 }
 .link > a{
     text-decoration: none;
-    color:#717171;
+    color:#fff;
     margin-right: 5px;
 }
 
@@ -94,7 +94,8 @@ body {
     line-height: 32px;
     font-weight: lighter;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    color: #193f71;
+    color: #717171;
+    background-color: #f3f4f5;
 }
 
 h2 {
