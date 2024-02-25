@@ -79,7 +79,7 @@ header {
     width: auto;
     height: 15px;
 }
-.link > a{
+.link a{
     text-decoration: none;
     color:#fff;
     margin-right: 5px;
@@ -136,12 +136,12 @@ th{
     color: #193f71;
 }
 
-a:link{
+td > a:link{
     text-decoration: none;
     color: #193f71;
 }
 
-a:active{
+td > a:active{
     color: #d5e2f3;
 }
 .education-table, .tech-skills {
@@ -150,7 +150,7 @@ a:active{
 /* tech skills end */
 
 
- footer, footer a {
+ footer {
     text-align: center;
     background-color: #193f71;
     color: whitesmoke;
