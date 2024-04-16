@@ -55,6 +55,17 @@ header {
 
 /* body */
 
+
+/* centering  */
+
+.info{
+    text-align: center;
+}
+.info table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .motto{
     background-color: #193f71;
     font-size: 0.6rem;
@@ -173,4 +184,5 @@ body { margin:0}
     margin: auto;
     max-width: 90%;
 }
+
 
