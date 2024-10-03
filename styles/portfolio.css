@@ -1,0 +1,231 @@
+:root{
+    --principalColor : #d5e2f3;
+    --headerBackground: #FFFDED;
+   
+    --tableHeadBackground : #d5e2f3;
+
+
+    --principalBackground : #092447;
+    --bodyBackground: #f9f9f6;
+
+    --contentBackground: #FFFDED;
+    
+
+
+    --principalFont: #E63462;
+    --headerFont: #FFFDED;
+    --titleFont: #023364;
+}
+
+
+/* header */
+header {
+    color: var(--principalFont);
+    background-color: var(--headerBackground);
+}
+
+.heady{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    gap:10px;
+}
+
+.circle{
+    border: 2px solid var(--principalFont);
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 60px;
+    height: auto;
+    padding: 2px;
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ini{
+    padding: 0;
+    margin: 0;
+}
+
+.ini > h1{
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.ini > p{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* body */
+
+
+/* centering  */
+
+.info{
+    margin: 20px;
+    text-align: center;
+    background-color: var(--bodyBackground);
+}
+
+
+
+/* ---- social - icons ---- */
+
+.button-link{
+    text-decoration: none;
+}
+.button-link:visited{
+    color: var(--headerFont);
+}
+
+.leaning-word{
+    color: var(--principalFont);
+    font-style: italic;
+}
+.welcome-container{
+    color: var(--headerFont);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principalBackground);
+}
+
+.welcome-container > div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.active-button{
+    text-align: center;
+    width: 150px;
+    padding: 10px 15px;
+    background-color: var(--principalFont);
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+.inactive-button{
+    text-align: center;
+    width: 150px;
+    padding: 10px 15px;
+    background-color: var(--principalBackground);
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+.active-button:hover{
+    opacity: 0.9;
+}
+
+.inactive-button:hover{
+    background-color: var(--titleFont);
+}
+
+.icon{
+    width: auto;
+    height: 15px;
+}
+.link a{
+    text-decoration: none;
+    color:#fff;
+    margin-right: 5px;
+}
+
+/* ---- social - icons ---- */
+
+
+body { 
+    width: 100%;
+    font-size: 1rem; 
+    line-height: 32px;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: var(--principalBackground);
+    background-color: var(--bodyBackground);
+}
+
+h2 {
+    font-size:  1.1rem;
+    text-align: center;
+    color: var(--titleFont);
+}
+
+header, footer {
+    margin: 0;
+    padding: .5rem;
+    max-width: 100% ;
+}
+
+main{
+    max-width: 100% ;
+}
+
+main > div{
+    padding: 0 1rem;
+}
+
+
+/* tech skills & education */
+
+.web-page{
+    text-align: left;
+    padding: 30px;
+}
+
+.web-page a{
+    color: var(--principalFont);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+
+.picture-container{
+
+    width: 80%;
+    margin: 20px auto;
+}
+
+.picture-container img{
+    width: 100%;
+}
+
+
+/* tech skills end */
+
+
+ footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--principalBackground);
+    color: whitesmoke;
+}
+
+
+footer {
+    font-size:  smaller ;
+}
+
+
+
+
