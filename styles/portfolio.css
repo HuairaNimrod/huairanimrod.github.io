@@ -83,14 +83,23 @@ header {
     background-color: var(--bodyBackground);
 }
 
+.info a{
+    text-decoration: none;
+    color: var(--principalFont);
+}
 
-
+.info a:visited{
+    text-decoration: none;
+    color: var(--principalFont);
+}
 /* ---- social - icons ---- */
 
-.button-link{
+.button-link a {
     text-decoration: none;
+    color: var(--headerFont);
 }
-.button-link:visited{
+.button-link a :visited{
+    text-decoration: none;
     color: var(--headerFont);
 }
 
